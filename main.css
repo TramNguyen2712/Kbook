@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+    height: 100%;
+    flex-direction: column;
+}
+button {
+    background:#bc13fe;
+    color: white;
+    border: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+.top {
+    display: flex;
+}
+/*Style for top content*/
+.top__content{
+    flex: 1;
+    position: relative;
+}
+.logo{
+    width: 20%;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;;
+}
+
+/*Style for top content hero*/
+.top__content__hero {
+    padding: 20rem 10rem 10rem;
+}
+.top__content__hero h3 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.top__content__hero p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 3rem 0;
+}
+
+/*Style for top sub content*/
+.top__sub-content{
+    background: #871F78;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column ;
+}
+
+.top__sub-content img {
+    max-width: 200%;
+}
+
+.top__sub-content nav {
+    /*flex-basis: 8rem;*/
+}
+
+ul {
+    justify-content: flex-end;
+    display: flex;
+}
+
+ul li {
+    opacity: 0.75;
+    list-style-type: none;
+    padding: 1.25rem; 
+    font-size: 1.1rem;
+}
+li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Style for footer*/
+footer {
+    position: relative;
+    background: #871F78;
+    flex: 1;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+footer button {
+    margin-top: 2em;
+}
+
+.footer__info {
+    width: 40%;
+    flex-basis: 50%;
+    padding-right: 1em;
+    float: left;
+}
+
+footer img {
+    width: 25%;
+    border: none;
+}
+
+.footer__info h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer__info p {
+    font-size: 1rem;
+    color: #999;
+}
+.footer__form {
+    width: 35%;
+    float: left;
+    flex: 1;
+    padding: 5em;
+    text-align: left;
+}
+.footer-control input {
+    width: 15rem;
+    height: 2em;
+}
+.shop-info {
+    margin-top: 6em;
+    width: 25%;
+    float: left;
+    color: #eee;
+}
